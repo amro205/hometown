@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+	font-size: 18px;
+	line-height: 1.5rem;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.header__section {
+	background: black;
+	margin: 0;
+	padding: 5px 10px;
+}
+.hero__section {
+	background-image: url(https://s3-eu-north-1.amazonaws.com/py3.visitsweden.com/images/Goteborg_sept13-0910-Redigera-IBSweb_3b7Z1.max-1500x1000.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero__text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__text > h2,
+h1 {
+	background-color: rgba(145, 129, 75, 0.8);
+	margin: 0.5rem 5rem;
+	padding: 0.5rem 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.main__section {
+	background: #91a39e;
+	border-top: 2px solid #29312e;
+	border-bottom: 2px solid #29312e;
+}
+
+.main__title {
+	text-transform: capitalize;
+	padding: 1.5rem 0;
+}
+.main__items {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1.5rem;
+}
+
+.main__item--1,
+.main__item--2,
+.main__item--3 {
+	max-width: 25%;
+	margin: 0 2rem;
+}
+
+.main__items img {
+	width: 15rem;
+	border-radius: 2rem;
+	outline: 2px solid black;
+}
+
+.guide__section img {
+	width: 20rem;
+	padding: 2rem;
+	border-radius: 5rem;
+}
+
+.guide__profile {
+	display: flex;
+	background: #112016;
+	width: 50%;
+	margin: 3rem auto;
+	color: #fff;
+	border-radius: 5rem;
+	border-bottom: 1rem solid #3c5048;
+	box-shadow: 2px 2px 10px black;
+}
+
+.guide__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+
+#guide__info {
+	font-style: italic;
+}
+
+.footer__section {
+	background: black;
+	color: white;
+	padding: 1rem;
+}
+
+.footer__section a:hover {
+	opacity: 0.5;
+}
+
+#disclaimer {
+	color: red;
+}
